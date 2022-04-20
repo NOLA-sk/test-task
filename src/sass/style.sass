@@ -6,7 +6,7 @@
 @import "./blocks/_cards"
 @import "./blocks/_content"
 @import "./blocks/_modal"
-@import "./blocks/_buttons";
+@import "./blocks/_buttons"
 
 body
   font-family: 'Manrope', sans-serif
@@ -22,8 +22,9 @@ body
   background: url(../img/images/main-block-bg.jpg) no-repeat
   padding-top: 30px
   margin-bottom: 70px
+  background-size: cover
   @media ( max-width: 991px )
     background: url(../img/images/main-block-bg.jpg) no-repeat center
-  @media ( max-width: 414px )
+  @media ( max-width: 575px )
     background: url(../img/images/main-mobile-bg.jpg) no-repeat
-
+    background-size: cover
