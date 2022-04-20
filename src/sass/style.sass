@@ -1,0 +1,29 @@
+*
+  box-sizing: border-box
+
+@import "./blocks/_header"
+@import "./blocks/_description"
+@import "./blocks/_cards"
+@import "./blocks/_content"
+@import "./blocks/_modal"
+@import "./blocks/_buttons";
+
+body
+  font-family: 'Manrope', sans-serif
+
+.container
+  max-width: 61%
+  margin: 0 auto
+  @media (max-width: 1440px)
+    max-width: 90%
+    
+  
+.main
+  background: url(../img/images/main-block-bg.jpg) no-repeat
+  padding-top: 30px
+  margin-bottom: 70px
+  @media ( max-width: 991px )
+    background: url(../img/images/main-block-bg.jpg) no-repeat center
+  @media ( max-width: 414px )
+    background: url(../img/images/main-mobile-bg.jpg) no-repeat
+

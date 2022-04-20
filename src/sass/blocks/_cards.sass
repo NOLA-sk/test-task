@@ -1,0 +1,148 @@
+.cards
+  display: flex
+  justify-content: space-between
+  align-items: flex-end 
+  @media ( max-width: 991px )  
+    flex-wrap: wrap
+  @media (max-width: 768px)
+    justify-content: center
+  .card
+    background: #FFFFFF
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08)
+    border-radius: 5px
+    padding: 20px
+    @media (max-width: 1200px)
+      padding: 10px
+    @media ( max-width: 991px )
+      margin-bottom: 10px
+      padding: 20px 20px
+    @media ( max-width: 414px )
+      display: flex
+      align-items: center
+      padding: 20px 18px
+    &__text
+      font-weight: 400
+      font-size: 15px
+      line-height: 22px
+      color: #101010
+      margin: 0
+      @media (max-width: 1200px)
+        font-size: 14px
+      @media ( max-width: 414px )
+        margin-left: 14px        
+    &--rectangular      
+      height: 106px
+      @media ( max-width: 414px )
+        height: 78px
+  .second-card
+    width: 233px
+    @media (max-width: 1200px)
+      width: 182px
+    @media ( max-width: 991px )
+      order: 2
+      width: 260px
+    @media (max-width: 768px)
+      order: 3
+    @media ( max-width: 414px )
+      width: 290px
+  .third-card
+    width: 245px
+    @media (max-width: 1200px)
+      width: 200px
+    @media ( max-width: 991px )
+      order: 4
+      width: 260px
+    @media ( max-width: 414px )
+      width: 290px
+  .fourth-card
+    width: 249px
+    @media (max-width: 1200px)
+      width: 215px
+    @media ( max-width: 991px )
+      order: 5
+      width: 260px
+    @media ( max-width: 414px )
+      width: 290px
+  .left-card--cuted
+    width: 155px
+    height: 106px 
+    z-index: 1
+    position: relative
+    border-radius: 0px 5px 5px 5px
+    @media (max-width: 1200px)
+      width: 120px
+    @media ( max-width: 991px )
+      order: 1
+      width: 155px
+      height: 106px
+    @media (max-width: 768px)
+      margin-right: 20px
+    @media ( max-width: 414px )
+      width: 135px
+      height: 120px
+      margin-right: 10px
+      display: block
+    &::after
+      position: absolute
+      content: ''
+      display: block
+      height: 34px
+      transform: skewY(12deg)
+      z-index: -1
+      top: -17px
+      left: 0px
+      width: 155px
+      background: #fff
+      border-radius: 5px 5px 5px 0px
+      @media (max-width: 1200px)
+        width: 120px
+      @media ( max-width: 991px )
+        width: 155px
+      @media ( max-width: 414px )
+        width: 133px
+    .card__text
+      @media ( max-width: 414px )
+        margin-left: 0
+  .right-card--cuted
+    width: 155px
+    height: 106px 
+    z-index: 1
+    position: relative
+    border-radius: 5px 0px 5px 5px
+    @media (max-width: 1200px)
+      width: 120px
+    @media ( max-width: 991px )
+      order: 3
+      width: 155px
+      height: 106px 
+    @media (max-width: 768px)
+      order: 2
+      margin-left: 20px
+    @media ( max-width: 414px )
+      width: 133px
+      height: 120px
+      margin-left: 10px
+      display: block
+    &::after
+      position: absolute
+      content: ''
+      display: block
+      height: 34px
+      transform: skewY(-12deg)
+      z-index: -1
+      top: -17px
+      left: 0px
+      width: 155px
+      background: #fff
+      border-radius: 5px 5px 0px 5px
+      @media (max-width: 1200px)
+        width: 120px
+      @media ( max-width: 991px )
+        width: 155px
+      @media ( max-width: 414px )
+        width: 133px
+    .card__text
+      @media ( max-width: 414px )
+        margin-left: 0
+
+      
