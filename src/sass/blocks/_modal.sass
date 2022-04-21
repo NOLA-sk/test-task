@@ -13,12 +13,14 @@
   overflow: hidden
   @media ( max-width: 991px )
     padding: 20px 15px 40px 15px
+    overflow: scroll 
   @media ( max-width: 575px )
     padding: 0 
     overflow: scroll 
 
 .quiz
   min-height: 652px
+  margin: 0 auto
   @media ( max-width: 1440px )    
     width: 1065px
   @media ( max-width: 1200px )
@@ -31,7 +33,7 @@
   @media ( max-width: 767px )
     width: 505px
   @media ( max-width: 575px )
-    width: 290px 
+    width: 290px
     
 
 .is-hidden
@@ -50,19 +52,16 @@
   align-content: center
   transform: translate(1140px, 20px)
   cursor: pointer
-  @media ( max-width: 1440px )
+  @media ( max-width: 1441px )
     transform: translate(1045px, 20px)   
   @media ( max-width: 1200px )
     transform: translate(875px, 20px)
   @media ( max-width: 991px )
-    transform: translate(635px, 20px)
-  @media ( max-width: 991px )
-    transform: translate(485px, 20px)
+    transform: translate(640px, 20px)
+  @media ( max-width: 767px )    
+    transform: translate(465px, 20px)
   @media ( max-width: 575px )
-    transform: translate(260px, 20px)
-    
-    
-    
+    transform: translate(263px, 20px)
   svg
     width: 20px
     height: 20px
@@ -95,8 +94,7 @@
     margin: 0
   @media ( max-width: 575px )
     width: 270px
-    margin: 0 auto
-    
+    margin: 0 auto    
     
 .answer-image
   @media ( max-width: 991px )
@@ -124,13 +122,16 @@
   @media ( max-width: 575px )
     height: 100vh
 
+.connection
+  margin: 0 auto
+
 .connection-data
   display: flex
   flex-direction: column
-  @media ( max-width: 757px )
-    transform: translateY(-350px)
-  @media ( max-width: 575px )    
-    transform: translateY(-200px)
+  @media ( max-width: 991px )
+    transform: translateY(-125px)
+  @media ( max-width: 414px )    
+    transform: translateY(-185px)
   label
     font-weight: 400
     font-size: 16px
@@ -160,14 +161,10 @@
   @media ( max-width: 1200px )
     left: 550px
   @media ( max-width: 991px )
-    left: 190px
-    top: 700px
-  @media ( max-width: 767px )
-    left: 110px
-  @media ( max-width: 575px )
-    transform: translateY(275px)
     position: static
-    // height: 300px
+    transform: translateY(320px)
+  @media ( max-width: 414px )
+    transform: translateY(280px)
   &__text
     text-align: center
     width: 387px

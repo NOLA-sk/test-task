@@ -4558,6 +4558,7 @@ document.addEventListener('DOMContentLoaded', function () {
           modalBlock.classList.add('last-question');
           formFooterText.classList.remove('is-hidden');
           var connectionForm = document.createElement('div');
+          connectionForm.classList.add('connection');
           connectionForm.innerHTML = "\n            <form name=\"connectionData\" class=\"connection-data\" id=\"lastQuestion\">\n              <label for=\"userName\">\u0418\u043C\u044F</label>\n              <input type=\"text\" name=\"userName\" id=\"userName\" placeholder=\"\u0412\u0430\u0448\u0435 \u0438\u043C\u044F...\">\n\n              <label for=\"numberPhone\">\u0422\u0435\u043B\u0435\u0444\u043E\u043D</label>\n              <input type=\"phone\" name=\"numberPhone\" id=\"numberPhone\" placeholder=\"+7 (\">\n\n              <label for=\"instagram\">\u0418\u043D\u0441\u0442\u0430\u0433\u0440\u0430\u043C</label>\n              <input type=\"phone\" name=\"instagram\" id=\"instagram\" placeholder=\"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0432\u0430\u0448 \u0438\u043D\u0441\u0442\u0430\u0433\u0440\u0430\u043C...\">              \n            </form>\n          ";
           quizContent.appendChild(connectionForm);
           break;

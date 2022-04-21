@@ -241,6 +241,7 @@ document.addEventListener('DOMContentLoaded', () =>{
           formFooterText.classList.remove('is-hidden');
 
           const connectionForm = document.createElement('div');
+          connectionForm.classList.add('connection');
           connectionForm.innerHTML = `
             <form name="connectionData" class="connection-data" id="lastQuestion">
               <label for="userName">Имя</label>
