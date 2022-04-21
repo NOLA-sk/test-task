@@ -4406,7 +4406,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'Интересно все'
     }],
     type: 'checkbox',
-    image: '../../dist/img/images/question-1.jpg'
+    image: '../img/images/question-1.jpg'
   }, {
     question: 'Сколько человек будет с Вами?',
     answers: [{
@@ -4551,8 +4551,7 @@ document.addEventListener('DOMContentLoaded', function () {
         case numberQuestion === questions.length - 1:
           nextButton.classList.add('is-hidden');
           prevButton.classList.add('is-hidden');
-          sendButton.classList.remove('is-hidden'); // questionsTitle.classList.add('is-hidden');
-
+          sendButton.classList.remove('is-hidden');
           questionsTitle.textContent = "".concat(questions[questions.length - 1].question);
           renderAnswers(indexQuestion);
           modalBlock.classList.add('last-question');
