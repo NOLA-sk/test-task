@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'checkbox',
-      image: '../../dist/img/images/question-1.jpg'
+      image: '../images/question-1.jpg'
     },
     {
       question: 'Сколько человек будет с Вами?',
