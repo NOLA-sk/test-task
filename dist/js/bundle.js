@@ -4429,7 +4429,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'У нас группа свыше 10 человек'
     }],
     type: 'radio',
-    image: '../../dist/img/images/question-2.jpg'
+    image: '../img/images/question-2.jpg'
   }, {
     question: 'На сколько дней Вы планируете свой отдых?',
     answers: [{
@@ -4452,7 +4452,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'Больше 5'
     }],
     type: 'radio',
-    image: '../../dist/img/images/question-3.jpg'
+    image: '../img/images/question-3.jpg'
   }, {
     question: 'Нужен трансфер из аэропорта?',
     answers: [{
@@ -4466,7 +4466,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'Забрать из другого города'
     }],
     type: 'radio',
-    image: '../../dist/img/images/question-4.jpg'
+    image: '../img/images/question-4.jpg'
   }, {
     question: 'В каком месяце планируете тур?',
     answers: [{
@@ -4480,7 +4480,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'Апрель'
     }],
     type: 'radio',
-    image: '../../dist/img/images/question-5.jpg'
+    image: '../img/images/question-5.jpg'
   }, {
     question: 'куда отправить результаты теста?',
     answers: [{
@@ -4494,7 +4494,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'Позвоните мне'
     }],
     type: 'radio',
-    image: '../../dist/img/images/phone-img.jpg'
+    image: '../img/images/phone-img.jpg'
   }];
   var openBtn = document.querySelector('.choose');
   var quizWrapper = document.querySelector('.modal');
