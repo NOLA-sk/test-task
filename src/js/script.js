@@ -1,7 +1,4 @@
-// import modal from "./modules/_modal";
-// import nextQuestion from "./modules/_next-que";
-// import {playTest} from './modules/_next-que';
-
+'use strict';
 document.addEventListener('DOMContentLoaded', () =>{  
   const modalBlock = document.querySelector('.quiz');
   const nextButton = document.querySelector('.next-button');
@@ -44,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'checkbox',
-      image: '../img/images/question-1.jpg'
+      image: '../../dist/img/images/question-1.jpg'
     },
     {
       question: 'Сколько человек будет с Вами?',
@@ -75,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'radio',
-      image: '../img/images/question-2.jpg'
+      image: '../../dist/img/images/question-2.jpg'
     },
     {
       question: 'На сколько дней Вы планируете свой отдых?',
@@ -106,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'radio',
-      image: '../img/images/question-3.jpg'
+      image: '../../dist/img/images/question-3.jpg'
     },
     {
       question: 'Нужен трансфер из аэропорта?',
@@ -125,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'radio',
-      image: '../img/images/question-4.jpg'
+      image: '../../dist/img/images/question-4.jpg'
     },
     {
       question: 'В каком месяце планируете тур?',
@@ -144,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'radio',
-      image: '../img/images/question-5.jpg'
+      image: '../../dist/img/images/question-5.jpg'
     },
     {
       question: 'куда отправить результаты теста?',
@@ -163,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'radio',
-      image: '../img/images/phone-img.jpg'
+      image: '../../dist/img/images/phone-img.jpg'
     },
   ];
 

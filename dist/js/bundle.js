@@ -4342,6 +4342,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_14__);
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_15__);
+
+
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -4370,9 +4372,6 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 
-// import modal from "./modules/_modal";
-// import nextQuestion from "./modules/_next-que";
-// import {playTest} from './modules/_next-que';
 document.addEventListener('DOMContentLoaded', function () {
   var modalBlock = document.querySelector('.quiz');
   var nextButton = document.querySelector('.next-button');
@@ -4406,7 +4405,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'Интересно все'
     }],
     type: 'checkbox',
-    image: '../img/images/question-1.jpg'
+    image: '../../dist/img/images/question-1.jpg'
   }, {
     question: 'Сколько человек будет с Вами?',
     answers: [{
@@ -4429,7 +4428,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'У нас группа свыше 10 человек'
     }],
     type: 'radio',
-    image: '../img/images/question-2.jpg'
+    image: '../../dist/img/images/question-2.jpg'
   }, {
     question: 'На сколько дней Вы планируете свой отдых?',
     answers: [{
@@ -4452,7 +4451,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'Больше 5'
     }],
     type: 'radio',
-    image: '../img/images/question-3.jpg'
+    image: '../../dist/img/images/question-3.jpg'
   }, {
     question: 'Нужен трансфер из аэропорта?',
     answers: [{
@@ -4466,7 +4465,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'Забрать из другого города'
     }],
     type: 'radio',
-    image: '../img/images/question-4.jpg'
+    image: '../../dist/img/images/question-4.jpg'
   }, {
     question: 'В каком месяце планируете тур?',
     answers: [{
@@ -4480,7 +4479,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'Апрель'
     }],
     type: 'radio',
-    image: '../img/images/question-5.jpg'
+    image: '../../dist/img/images/question-5.jpg'
   }, {
     question: 'куда отправить результаты теста?',
     answers: [{
@@ -4494,7 +4493,7 @@ document.addEventListener('DOMContentLoaded', function () {
       title: 'Позвоните мне'
     }],
     type: 'radio',
-    image: '../img/images/phone-img.jpg'
+    image: '../../dist/img/images/phone-img.jpg'
   }];
   var openBtn = document.querySelector('.choose');
   var quizWrapper = document.querySelector('.modal');
