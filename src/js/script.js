@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'checkbox',
-      image: '../images/question-1.jpg'
+      image: '../src/images/question-1.jpg'
     },
     {
       question: 'Сколько человек будет с Вами?',
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'radio',
-      image: '../../dist/img/images/question-2.jpg'
+      image: '../src/images/question-2.jpg'
     },
     {
       question: 'На сколько дней Вы планируете свой отдых?',
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'radio',
-      image: '../../dist/img/images/question-3.jpg'
+      image: '../src/images/question-3.jpg'
     },
     {
       question: 'Нужен трансфер из аэропорта?',
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'radio',
-      image: '../../dist/img/images/question-4.jpg'
+      image: '../src/images/question-4.jpg'
     },
     {
       question: 'В каком месяце планируете тур?',
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'radio',
-      image: '../../dist/img/images/question-5.jpg'
+      image: '../src/images/question-5.jpg'
     },
     {
       question: 'куда отправить результаты теста?',
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
       ],
       type: 'radio',
-      image: '../../dist/img/images/phone-img.jpg'
+      image: '../src/images/phone-img.jpg'
     },
   ];
 
