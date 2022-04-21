@@ -4524,8 +4524,7 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     var renderImage = function renderImage(indexQuestion) {
-      var img = document.createElement('div'); // img.classList.add('image');
-
+      var img = document.createElement('div');
       img.innerHTML = "\n        <img src=\"".concat(questions[indexQuestion].image, "\" alt=\"").concat(questions[indexQuestion].image, "\">\n      ");
       answerImage.appendChild(img);
     };

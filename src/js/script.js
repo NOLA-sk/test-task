@@ -204,7 +204,6 @@ document.addEventListener('DOMContentLoaded', () =>{
 
     const renderImage = (indexQuestion) => {
       const img = document.createElement('div');
-      // img.classList.add('image');
       img.innerHTML = `
         <img src="${questions[indexQuestion].image}" alt="${questions[indexQuestion].image}">
       `;
